@@ -17,7 +17,7 @@ public class assignment7 {
 	public void beforetests() {
 		try {
 //			System.setProperty("webdriver.chrome.driver", "C:\\sdet\\Selenium Driver\\chromedriver.exe");
-			WebDriverManager.chromedriver().proxy("http://10.98.21.24:8080").setup();			
+			WebDriverManager.chromedriver().proxy("http://").setup();			
 			driver = new ChromeDriver();
 			driver.get("https://opensource-demo.orangehrmlive.com/");
 			Thread.sleep(1000);
