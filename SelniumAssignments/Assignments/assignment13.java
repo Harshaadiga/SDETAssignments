@@ -31,8 +31,8 @@ public class assignment13 {
 			e.printStackTrace();
 		}
 		
-//		System.setProperty("webdriver.chrome.driver", "C:\\\\sdet\\\\Selenium Driver\\\\chromedriver.exe");
-		WebDriverManager.chromedriver().proxy("http://10.98.21.24:8080").setup();
+//		System.setProperty("webdriver.chrome.driver", "C:\\sdet\\Selenium Driver\\chromedriver.exe");
+		WebDriverManager.chromedriver().proxy("http://").setup();
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("Url"));
 		Thread.sleep(2000);
