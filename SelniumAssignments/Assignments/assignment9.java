@@ -10,7 +10,7 @@ public class assignment9 {
 	public static void main(String[] args) throws InterruptedException 
 	{
 //		System.setProperty("webdriver.chrome.driver", "C:\\sdet\\Selenium Driver\\chromedriver.exe");
-		WebDriverManager.chromedriver().proxy("http://10.98.21.24:8080").setup();
+		WebDriverManager.chromedriver().proxy("http://").setup();
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
